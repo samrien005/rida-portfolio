@@ -1,0 +1,204 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.whole{
+    background-color:#3b2a25;
+    height:350vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: larger;
+    
+}
+nav a{
+    text-decoration: underline;
+    color:  rgb(206, 135, 158);
+    font-weight: bold;
+    font-size: xx-large;
+}
+h1{
+    color:rgb(206, 135, 158);
+    padding: 10px;
+    margin-top: 37px;
+    margin-left: 5px;
+    font-size: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.animate{
+    width:250px;
+    height: 250px;
+    background-color: palevioletred;
+    animation: box3 3s linear 2s infinite alternate forwards;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 90px;
+    float: left;
+}
+@keyframes box3{
+    from{background-color: palevioletred;}
+    to{background-color: plum;}
+    from{transform: rotate(0deg);}
+    to{transform: rotate(110deg);}
+}
+.img{
+    margin-top: 40px;
+    margin-left: 100px;
+    position: relative;
+    border-radius: 100%;
+    
+}
+.animate2{
+    width:250px;
+    height: 250px;
+    background-color: palevioletred;
+    animation: box3 3s linear 2s infinite alternate forwards;
+    margin-top: 60px;
+    margin-right: 100px;
+    float: right;
+}
+@keyframes box3{
+    from{background-color: palevioletred;}
+    to{background-color: plum;}
+    from{transform: rotate(0deg);}
+    to{transform: rotate(110deg);}
+}
+h3{
+    
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 4rem;
+    margin-right: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+h4{
+    color: aliceblue;
+    margin-top: 120px;
+    font-size: 5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+h2{
+      text-align: center;
+      font-size: 6rem;
+      word-spacing: 9px;
+      color:pink;
+}
+p{
+    color: pink;
+    text-align: justify;
+    margin-top: 38px;
+    text-align: center;
+    font-size: x-large;
+}
+h5{
+    color:antiquewhite;
+    margin-top: 60px;
+    font-size: 5rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 120px;
+}
+.nav-link:hover{
+    color: plum;
+}
+
+
+.order{
+    color: aliceblue;
+    text-align: right;
+    text-align: center;
+    font-size: xx-large;
+    line-height: 80px;
+}
+h6{
+    color: paleturquoise;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 1000px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.p1{
+    margin-top: -38px;
+}
+div.PROJECTS div.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    margin-top: 40px;
+}
+div.items figure{
+    width: 25%;
+    height: 70vh;
+    background-color: palevioletred;
+    margin: 5px;
+    border-radius: 10px;
+}
+figure figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    margin: 5px;
+}
+div.items figure img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+@media screen and (max-width:600px){
+    h2{
+        font-size: 2rem;
+    }
+    nav{
+        
+        flex-direction: column;
+        padding: 10px;
+        font-size: larger;
+        }
+        .whole{
+            background-color:#3b2a25;
+            height:530vh;
+        }
+        h1{
+            color:pink;
+            padding: 10px;
+            margin-top: 37px;
+            margin-left: 5px;
+            font-size: 6rem;
+            font-style: italic;
+        }
+        .order{
+            color: aliceblue;
+            text-align: right;
+            text-align: center;
+            font-size: xx-large;
+            line-height: 50px;
+        }
+        .p1{
+            margin-top: 50px;
+        }
+        h6{
+            color: paleturquoise;
+            font-size: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+            margin-right: 1000px;
+            margin-top: 30px;
+            margin-left: 70px;
+        }
+        .img{
+            margin-top: 40px;
+            margin-left: 100px;
+            position: relative;
+            border-radius: 100%;
+            width: 350;
+        }
+}
